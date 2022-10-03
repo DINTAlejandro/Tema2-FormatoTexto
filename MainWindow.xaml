@@ -1,0 +1,19 @@
+﻿<Window x:Class="Tema2_FormatoTexto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema2_FormatoTexto"
+        mc:Ignorable="d"
+        Title="FormatoTexto" Height="450" Width="800" Icon="Assets/basketball.ico">
+    <Grid>
+        <CheckBox x:Name="negrita_CheckBox" Content="Negrita" HorizontalAlignment="Left" Margin="493,110,0,0" VerticalAlignment="Top" Checked="negrita_CheckBox_Checked" FontWeight="Bold" Unchecked="negrita_CheckBox_Unchecked"/>
+        <TextBlock x:Name="salida_TextBlock" HorizontalAlignment="Left" Height="44" Margin="105,307,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="530" Background="#FF66B947" TextTrimming="CharacterEllipsis"></TextBlock>
+        <TextBox x:Name="entrada_TextBox" HorizontalAlignment="Left" Height="164" Margin="105,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="341" TextChanged="entrada_TextBox_TextChanged"/>
+        <RadioButton x:Name="rojo_RadioButton" Content="Rojo" HorizontalAlignment="Left" Margin="619,152,0,0" VerticalAlignment="Top" Checked="rojo_RadioButton_Checked"/>
+        <RadioButton x:Name="azul_RadioButton" Content="Azul" HorizontalAlignment="Left" Margin="619,132,0,0" VerticalAlignment="Top" Checked="azul_RadioButton_Checked"/>
+        <RadioButton x:Name="negro_RadioButton" Content="Negro" HorizontalAlignment="Left" Margin="619,112,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.509,-0.333" Checked="negro_RadioButton_Checked"/>
+        <CheckBox x:Name="curisva_CheckBox" Content="Cursiva" HorizontalAlignment="Left" Margin="493,140,0,0" VerticalAlignment="Top" Checked="curisva_CheckBox_Checked" FontStyle="Italic" Unchecked="curisva_CheckBox_Unchecked"/>
+
+    </Grid>
+</Window>
